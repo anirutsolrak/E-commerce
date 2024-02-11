@@ -1,0 +1,44 @@
+* {
+  display: flex;
+  
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("img.jpg");
+  background-size: 100vw auto; /* Largura da imagem 100% da largura da viewport */
+  background-repeat: no-repeat;
+}
+header{
+  display:flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+a{
+  display: flex;
+  font-size: 5px;
+  align-items: end;
+  justify-content:  end;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end; /* Alinha os itens do menu à direita */
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-left: 10px; /* Adiciona espaçamento entre os itens */
+}
+
+.nav a {
+  text-decoration: none;
+}
